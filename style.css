@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.reg_form{
+    margin: 2% auto;
+    border: 1px solid grey;
+    width: fit-content;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.same_line{
+    display: inline-block;
+    margin: 5px 3px 15px 5px;
+}
+
+input{
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 2px ;
+
+}
+.size{
+    width: 98%;
+}
+
+.margin_space{
+    margin: 5px 3px 20px 5px;
+}
+input[type="file"]{
+    font-size:13px ;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+input[type="submit"]{
+    background-color: #fc6b03 ;
+    padding: 7px 2px;
+    border: 1px;
+}
+
+
+#error_msg {
+    color: red;
+    text-align: center;
+
+  }
+.form_error{
+    margin: 0px;
+}
+
+.form_error span {
+    margin: 0px;
+    font-size: 8px;
+    color: red;
+}
+.form_error input{
+    width: 98%;
+    border: 1px solid red;
+}

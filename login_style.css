@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.same_line{
+    display: inline-block;
+    margin: 5px 3px 25px 5px;
+}
+input{
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 2px ;
+
+}
+.login_form{
+    margin: 2% auto;
+    border: 1px solid grey;
+    width: fit-content;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 50px 20px;
+}
+input[type="submit"]{
+    background-color: #fc6b03 ;
+    padding: 7px 40px;
+    border: 1px;
+
+    margin: 20px 3px 0px 5px;
+}
